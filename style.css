@@ -1,0 +1,55 @@
+body {
+    font-family: "Ink Free";
+    color: white;
+    background-color: darkslateblue;
+    #funky{
+        color: greenyellow;
+    }
+    a[href = "frhsd.com"]{
+        color: yellow
+    }
+        padding: 40px;
+        backdrop-filter: brightness(75%);
+        color: white;
+        border: black;
+    }
+    #frhsd.com{
+        color: gold;
+    }
+    div{
+        li{
+            list-style-type: none;
+        }
+        backdrop-filter: brightness(75%);
+    }
+    li>li{
+        border: 3px black;
+    }
+    p~div{
+        color: powderblue;
+    }
+    p+div{
+        color: deepskyblue;
+    }
+    #pod{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Rengar{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto auto;
+        gap: 12px;
+        img {
+            grid-column: span 3;
+            grid-row: span 3;
+        }
+        p {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        a {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+    }
