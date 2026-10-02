@@ -2,11 +2,15 @@ body {
     font-family: "Ink Free";
     color: white;
     background-color: darkslateblue;
-    #funky{
-        color: greenyellow;
+    tc:hover{
+        border: 1px white solid;
+    }
+    .end{
+        width: 100px;
+        height: 100px;
     }
     a[href = "frhsd.com"]{
-        color: yellow
+        color-interpolation-filters: brightness(75%);
     }
         padding: 40px;
         backdrop-filter: brightness(75%);
@@ -32,10 +36,9 @@ body {
         color: deepskyblue;
     }
     #pod{
-        display: flex;
-        justify-content: space-evenly;
+        color: aqua;
     }
-    #Rengar{
+    #griddy{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto auto;
@@ -45,6 +48,7 @@ body {
             grid-row: span 3;
         }
         p {
+            font-size:24px;
             grid-column: span 2;
             grid-row: span 2;
         }
