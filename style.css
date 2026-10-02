@@ -8,6 +8,7 @@ body {
     .end{
         width: 100px;
         height: 100px;
+
     }
     a[href = "frhsd.com"]{
         color-interpolation-filters: brightness(75%);
